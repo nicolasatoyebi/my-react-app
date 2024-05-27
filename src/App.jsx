@@ -1,45 +1,50 @@
+import React from 'react'
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
-import reactLogo from './assets/google-img.png'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Nav from './components/Nav/Nav'
-import Footer from './components/Footer/Footer'
+// import reactLogo from './assets/google-img.png'
+// import viteLogo from '/vite.svg'
+// //import './App.css'
+// import Nav from './components/Nav/Nav'
+// import Footer from './components/Footer/Footer'
+// import Classwork02 from './components/classwork/Classwork02'
+
+import Classwork02 from './components/classwork/Classwork02'
 
 
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  let name = "World";
-   let style = {
-    backgroundColor:"green",
-    paddingTop:"20px",
-    color:"white",
-    fontWeight:"bold",
-  }
+//function App() {
+  // const [count, setCount] = useState(0)
 
-  return (
-    <>
-    <Nav />
-    <div>
-      <h1 style={{backgroundColor:"red", paddingTop:"20px", color:"white"}}>Hello {name}</h1>
-    </div>
-    {/* <p>{4*2}</p>
-    <p>4*2</p> */}
-    <p style={style}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, et. Doloremque, consectetur! Corporis dolorem, unde nisi eaque earum explicabo est dolore debitis nostrum vitae maiores fuga fugiat! Aspernatur, consequuntur eius.
-    </p>
-    <p className="para">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis est delectus quisquam similique aliquam esse numquam odio suscipit hic reprehenderit. Quidem inventore, sequi sit exercitationem voluptas nulla minima temporibus cumque?
-    </p>
-    <Footer />
-    </>
+  // let name = "World";
+  //  let style = {
+  //   backgroundColor:"green",
+  //   paddingTop:"20px",
+  //   color:"white",
+  //   fontWeight:"bold",
+  // }
+
+  // return (
+  //   <>
+  //   <Nav />
+  //   <div>
+  //     <h1 style={{backgroundColor:"red", paddingTop:"20px", color:"white"}}>Hello {name}</h1>
+  //   </div>
+  //   {/* <p>{4*2}</p>
+  //   <p>4*2</p> */}
+  //   <p style={style}>
+  //     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, et. Doloremque, consectetur! Corporis dolorem, unde nisi eaque earum explicabo est dolore debitis nostrum vitae maiores fuga fugiat! Aspernatur, consequuntur eius.
+  //   </p>
+  //   <p className="para">
+  //     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis est delectus quisquam similique aliquam esse numquam odio suscipit hic reprehenderit. Quidem inventore, sequi sit exercitationem voluptas nulla minima temporibus cumque?
+  //   </p>
+  //   <Footer />
+  //   </>
 
     
-  )
+  // )
 
-  return (
+ // return (
     <>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -94,11 +99,11 @@ function App() {
 
       </div> */}
       </>
-       )
+      // )
 
-}
+//}
 
-export default App
+//export default App
 
 
 //Writing jsx
@@ -140,3 +145,20 @@ export default App
 // }
 
 // export default App
+
+const App = () => {
+
+
+
+
+  return (
+   <div>
+      
+    <Classwork02/>
+      
+      
+   </div>
+  )
+}
+
+export default App
